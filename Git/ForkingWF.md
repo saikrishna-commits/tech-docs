@@ -1,4 +1,4 @@
-#### Forking strategy for open source contribution
+# Forking strategy for open source contribution
 
 
 [![download.png](https://i.postimg.cc/CLZfzTw3/download.png)](https://postimg.cc/nCJLPWj2)
