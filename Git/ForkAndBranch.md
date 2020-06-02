@@ -7,8 +7,12 @@
            origin git@github.org:my-user/some-project.git (push) 
          ```
 
-    2) If you don't have an upstream you can easily add it with the remote command:
-      git remote add upstream git@bitbucket.org:some-gatekeeper-maintainer/some-project.git
+    2) If you don't have an upstream you can easily add it with command
+
+  
+    ```properties
+      git remote add upstream git@github.org:some-maintainer/some-project.git
+    ```
 
 Verify that remote is added correctly 
 
