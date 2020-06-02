@@ -1,5 +1,5 @@
 
-### Feature branching workflow
+# Feature branching workflow
 
 
 1) The core idea behind the Feature Branch Workflow is that all feature development should take place in a dedicated branch instead of the master branch. 
