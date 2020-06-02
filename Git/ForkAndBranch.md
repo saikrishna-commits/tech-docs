@@ -1,20 +1,16 @@
+### Forking strategy for open source contribution
 
+1) First, verify that you have already setup a remote for the upstream repository, and hopefully an origin too:
+    1) git remote -v
+        origin git@github.org:my-user/some-project.git (fetch)
+        origin git@github.org:my-user/some-project.git (push)
 
-First, verify that you have already setup a remote for the upstream repository, and hopefully an origin too:
-
-Step1 ) 
-    git remote -v
-    origin git@bitbucket.org:my-user/some-project.git (fetch)
-    origin git@bitbucket.org:my-user/some-project.git (push)
-
- If you don't have an upstream you can easily add it with the remote command:
+    2) If you don't have an upstream you can easily add it with the remote command:
       git remote add upstream git@bitbucket.org:some-gatekeeper-maintainer/some-project.git
-
-
 
 Verify that remote is added correctly 
 
-step2 )
+2)
    git remote -v
     origin git@bitbucket.org:my-user/some-project.git (fetch)
     origin git@bitbucket.org:my-user/some-project.git (push)
@@ -24,7 +20,7 @@ step2 )
 Now you can collect the latest changes of the upstream repository with fetch.
  Repeat this every time you want to get updates:
 
-step3 )
+3)
     git fetch upstream
 
 
@@ -41,18 +37,15 @@ You can also use rebase instead, then merge to make sure the upstream has a clea
 
 
 git checkout -b feature-x
-#some work and some commits happen
-#some time passes
+###### some work and some commits happen
+###### some time passes
 git fetch upstream
 git rebase upstream/master
 
 
-
-push your work 
+###### push your work 
 
 git push origin feature-x
-
-
 
 
 A slight problem arises if you have to update your remote branch feature-x after you've published it, because of some feedback from the upstream maintainers. 
