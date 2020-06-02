@@ -1,4 +1,7 @@
-### Forking strategy for open source contribution
+#### Forking strategy for open source contribution
+
+
+[![download.png](https://i.postimg.cc/CLZfzTw3/download.png)](https://postimg.cc/nCJLPWj2)
 
 1) First, verify that you have already setup a remote for the upstream repository, and hopefully an origin too:
     1) git remote -v
